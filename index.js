@@ -1,3 +1,5 @@
+document.querySelector(".play").addEventListener("click",function () {
+
 var randomNumber1;
 randomNumber1 = Math.floor(Math.random()*6 + 1);
 var randomDiceImage = "dice" + randomNumber1 + ".png";
@@ -24,3 +26,9 @@ else if (randomNumber2 > randomNumber1) {
 else {
   document.querySelector("h2").innerHTML = "Draw!";
 }
+};
+
+document.querySelector(".reset").addEventListener("click",function() {
+    location.reload();
+});                                                 
+                                                 
