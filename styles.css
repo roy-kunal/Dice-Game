@@ -49,6 +49,26 @@ img {
 .winner{
   padding-top: 5%;
 }
+
+.play {
+  color: white;
+  background-color: green;
+  width: 100px;
+  height: 40px;
+  border-radius: 15%;
+  margin-bottom: 0;
+  
+}
+
+.reset {
+  color: white;
+  background-color: red;
+  width: 100px;
+  height: 40px;
+  border-radius: 15%;
+  margin-bottom: 0;
+  
+}
 .play-button
 {
     margin-top: 3% ;
